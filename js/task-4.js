@@ -17,9 +17,10 @@ form.addEventListener('submit', function (event) {
     };
 
     console.log(formData);
-
+     form.reset();
 
 });
+
 
 
    

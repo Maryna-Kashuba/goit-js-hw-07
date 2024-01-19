@@ -32,17 +32,18 @@ const images = [
 
 
 const galleryElement = document.querySelector(".gallery");
+const galleryFragment = new DocumentFragment();
 
-images.map(image => {
-    const listElement = document.createElement('li');
-    listElement.classList.add('gallery-list');
-
+images.forEach(image => {
+  const listElement = document.createElement('li');
     const imgElement = document.createElement('img');
     imgElement.src = image.url;
     imgElement.alt = image.alt;
 
-    listElement.appendChild(imgElement); galleryElement.appendChild(listElement);
+  listElement.appendChild(imgElement);
+  galleryElement.appendChild(listElement);
 
 });
+galleryElement.appendChild(galleryFragment);
 
 
