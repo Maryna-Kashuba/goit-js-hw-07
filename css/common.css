@@ -12,59 +12,98 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-.gallery{
+
+.gallery {
   list-style: none;
   display: flex;
-    width: 1440px;
-    height: 848px;
-    margin-left: auto;
-      margin-right: auto;
-    padding: 100px 156px;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 48px;
+  width: 1440px;
+  height: 848px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 156px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
 }
-.gallery-list{
+
+.gallery-list {
   width: calc((100% - 24px) / 3);
-    flex: 0 0 30%;
+  flex: 0 0 30%;
 }
-.gallery-list img{
+
+.gallery-list img {
   width: 100%;
 }
-img{
+
+img {
   width: 360px;
   height: 100%;
 }
 
-input{
+input {
   width: 360px;
   height: 40px;
   padding-left: 16px;
 }
 
 
-.login-form{
-display: inline-flex;
+.login-form {
+  display: inline-flex;
   padding: 24px;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-    
-}
-label{
-  display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
-button{
-  display: flex;
-    padding: 8px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-      background: #4E75FF;
-   
 
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+button {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4E75FF;
+
+
+}
+
+.change-color {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4E75FF;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 16px;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  gap: 16px;
 }
